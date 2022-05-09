@@ -1,0 +1,54 @@
+.container
+{
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #e0e0e0;
+  box-shadow: 0 0 10px grey;
+  margin-top: 30px;
+  padding: 5px;
+  margin-bottom: 20px;
+
+}
+.heading-tracker
+{
+  text-align: center;
+}
+.bal
+{
+  margin: 10px 20px;
+}
+.exp-container
+{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(167, 159, 159);
+  margin: 0 30px;
+
+}
+.transaction-list
+{
+  margin: 0%;
+  padding: 0px;
+  
+}
+.transaction-list >li
+{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+box-shadow: 0 0 10px gray;
+background-color: honeydew;
+margin: 5px;
+padding: 10px 20px;
+}
+.form-transaction
+{
+  text-align: center;
+}
+.form-transaction input
+{
+  width:80%;
+  margin:10px 15px;
+  padding: 5px 0;
+}
